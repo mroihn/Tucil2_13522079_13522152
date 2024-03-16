@@ -1,8 +1,6 @@
 import matplotlib.pyplot as plt
 
-
 def plot_curve(control_points, mid_points, curve_points):
-    global x_points, y_points
     x_points = []
     y_points = []
     for step_points in control_points:
@@ -23,7 +21,6 @@ def plot_curve(control_points, mid_points, curve_points):
 
 
 def plot_mid_point(mid_points):
-    global x_points, y_points
     x_points = []
     y_points = []
     for step_points in mid_points:
@@ -41,7 +38,6 @@ def plot_mid_point(mid_points):
 
 
 def plot_curve_point(curve_points):
-    global x_points, y_points
     x_points = []
     y_points = []
     for step_points in curve_points:

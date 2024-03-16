@@ -6,8 +6,6 @@ curve_points = []
 control_points = []
 mid_points = []
 iteration = 0
-x_points = []
-y_points = []
 
 
 # Fungsi untuk mendapatkan titik kurva
@@ -20,7 +18,7 @@ def solve(p0, p1, p2):
 
 # Fungsi divide and conquer
 def divide_conquer(p0, p1, p2, iterationNow):
-    global curve_points
+    global curve_points,mid_points
     if iterationNow < iteration:
         mid1 = [(p0[0] + p1[0]) / 2, (p0[1] + p1[1]) / 2]
         mid2 = [(p1[0] + p2[0]) / 2, (p1[1] + p2[1]) / 2]
@@ -41,7 +39,7 @@ def divide_conquer(p0, p1, p2, iterationNow):
 
 
 def main():
-    global iteration
+    global control_points,iteration
     # input titik kontrol
     print("Masukkan control point: ")
     p0 = tuple(map(int, input().split(" ")))
