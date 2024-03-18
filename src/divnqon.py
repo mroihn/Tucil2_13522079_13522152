@@ -33,15 +33,6 @@ def divide_conquer(p0, p1, p2, iterationNow):
         curve_points.append(mid)
         # kanan
         divide_conquer(mid, mid2, p2, iterationNow)
-
-def dnc_general(p0,control_points,pk    ):#khusus untuk control point lebih dari sama dengan 2
-    for i in range(len(control_points)):
-        if i==0:
-            solve(p0,control_points[i],control_points[i+1])
-        elif i==len(control_points)-1:
-            solve(control_points[i-1],control_points[i],pk)
-        else:
-            solve(control_points[i-1],control_points[i],control_points[i+1])
     
 def main():
     global control_points,iteration
