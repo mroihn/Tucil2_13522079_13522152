@@ -15,9 +15,7 @@ List the ready features here:
 
 
 ## Setup and Dependencies
-Beberapa library yang digunakan pada project ini
-- plotting 
-- numpy
+Library yang digunakan pada project ini
 - matplotlib
 
 
@@ -26,25 +24,21 @@ pastikan python sudah terinstall di environment anda
 
 untuk windows
 ```bash
-pip install numpy
-```
-```bash
 pip install matplotlib
-```
-```bash
-pip install plotting
 ```
 setelah dependencies lengkap jalankan
 ```bash
 python src\(namafile) 
 ```
 
+untuk brute force jalankan bruteforce.py dan untuk DnC jalankan dncGeneral.py
+
 ## Project Status
 Project is complete
 
 ## Author
 - Emery Fathan Zwageri - 13522079
-- Muhammad roihan - 13522152
+- Muhammad Roihan - 13522152
 
 
 <!-- Optional -->
