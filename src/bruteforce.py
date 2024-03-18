@@ -6,8 +6,13 @@ curve_points = []
 control_points = []
 new_points= []
 iteration = 0
+<<<<<<< HEAD
 
 
+=======
+             
+# Fungsi bruteforce
+>>>>>>> 55aa08042e09cef6ce3507f2a8cb66f995a76f27
 def bruteforce(p0,p1,p2,n):
     global curve_points,new_points
     if n>1:
