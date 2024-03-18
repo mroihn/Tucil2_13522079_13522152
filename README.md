@@ -42,7 +42,9 @@ python src\(namafile)
 ## Project Status
 Project is complete
 
-
+## Author
+- Emery Fathan Zwageri - 13522079
+- Muhammad roihan - 13522152
 
 
 <!-- Optional -->
