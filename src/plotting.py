@@ -27,7 +27,7 @@ def plot_mid_point(mid_points):
         x_points.append(step_points[0])
         y_points.append(step_points[1])
 
-        plt.title("Quadratic Bezier Curve (Step by Step)")
+        plt.title("Bezier Curve (Step by Step)")
         plt.xlabel("X-axis")
         plt.ylabel("Y-axis")
         plt.grid(True)
@@ -44,7 +44,7 @@ def plot_curve_point(curve_points):
         x_points.append(step_points[0])
         y_points.append(step_points[1])
 
-        plt.title("Quadratic Bezier Curve (Step by Step)")
+        plt.title("Bezier Curve (Step by Step)")
         plt.xlabel("X-axis")
         plt.ylabel("Y-axis")
         plt.grid(True)
