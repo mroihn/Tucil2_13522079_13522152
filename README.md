@@ -4,21 +4,21 @@
 
 
 ## General Information
-Pada tugas ini kami melakukan perbandingan dan analisis dnc dan bruteforce dalam menggambar kurva bezier
+Pada tugas ini kami melakukan perbandingan dan analisis dnc dan bruteforce dalam menggambar kurva bezier.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Features
 List the ready features here:
 - Menampilkan proses visualisasi kurva bezier
-- Menggambar kurva bezier secara general
+- Menggambar kurva bezier dengan n titik kontrol
 
 
 ## Setup and Dependencies
 Beberapa library yang digunakan pada project ini
--plotting
--numpy
--matplotlib
+- plotting 
+- numpy
+- matplotlib
 
 
 ## Usage
