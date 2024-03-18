@@ -43,7 +43,7 @@ def main():
     n = int(input())
     points = []
     for i in range(n):
-        point = tuple(map(int, input(f"Masukkan titik ke-{i+1}: ").split(" ")))
+        point = tuple(map(float, input(f"Masukkan titik ke-{i+1}: ").split(" ")))
         points.append(point)
         control_points.append(point)
 

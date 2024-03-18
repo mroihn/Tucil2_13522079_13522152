@@ -38,9 +38,9 @@ def main():
     global control_points,iteration
     # input titik kontrol
     print("Masukkan control point: ")
-    p0 = tuple(map(int, input().split(" ")))
-    p1 = tuple(map(int, input().split(" ")))
-    p2 = tuple(map(int, input().split(" ")))
+    p0 = tuple(map(float, input().split(" ")))
+    p1 = tuple(map(float, input().split(" ")))
+    p2 = tuple(map(float, input().split(" ")))
  
     # input jumlah iterasi
     iteration = int(input("Masukkan jumlah iterasi : "))
