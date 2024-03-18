@@ -23,7 +23,7 @@ Beberapa library yang digunakan pada project ini
 
 ## Usage
 pastikan python sudah terinstall di environment anda
-`write-your-code-here`
+
 untuk windows
 ```bash
 pip install numpy
@@ -33,6 +33,10 @@ pip install matplotlib
 ```
 ```bash
 pip install plotting
+```
+setelah dependencies lengkap jalankan
+```bash
+python src\(namafile) 
 ```
 
 ## Project Status
