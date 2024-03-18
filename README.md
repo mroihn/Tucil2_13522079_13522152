@@ -31,7 +31,7 @@ setelah dependencies lengkap jalankan
 python src\(namafile) 
 ```
 
-untuk brute force jalankan bruteforce.py dan untuk DnC jalankan dncGeneral.py
+untuk brute force jalankan bruteforce.py, untuk DnC 3 titik jalankan divnqon.py dan untuk DnC n titik jalankan dncGeneral.py (gunakan program ini jika ingin menjalankan tes.txt dari folder test)
 
 ## Project Status
 Project is complete
