@@ -19,7 +19,7 @@ def plot_curve(control_points, mid_points, curve_points):
     plot_curve_point(curve_points)
     plt.show()
 
-
+ 
 def plot_mid_point(mid_points):
     x_points = []
     y_points = []

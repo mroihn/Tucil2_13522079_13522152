@@ -27,7 +27,7 @@ def divide_conquer(p0, p1, p2, iterationNow):
         mid_points.append(mid2)
         mid_points.append(mid)
 
-        iterationNow += 1
+        iterationNow += 1 
         # kiri
         divide_conquer(p0, mid1, mid, iterationNow)
         curve_points.append(mid)
@@ -45,7 +45,7 @@ def dnc_general(p0,control_points,pk    ):#khusus untuk control point lebih dari
         else:
             solve(control_points[i-1],control_points[i],control_points[i+1])
         # for i in curve_points()
-        
+
 def main():
     global control_points,iteration
     # input titik kontrol

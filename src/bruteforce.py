@@ -67,7 +67,7 @@ iteration = 0
 #             mid_points.extend(temp_mid_points)
 #             length.append(len(mid_points))
 #             curve_points = temp_curve_points
-            
+             
 def bruteforce(p0,p1,p2,n):
     global curve_points,new_points
     if n>1:

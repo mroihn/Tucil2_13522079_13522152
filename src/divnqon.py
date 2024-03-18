@@ -50,13 +50,13 @@ def main():
     p0 = tuple(map(int, input().split(" ")))
     p1 = tuple(map(int, input().split(" ")))
     p2 = tuple(map(int, input().split(" ")))
-
+ 
     # input jumlah iterasi
     iteration = int(input("Masukkan jumlah iterasi : "))
     control_points.append(p0)
     control_points.append(p1)
     control_points.append(p2)
-    
+
     start_time = time.time()
     solve(p0, p1, p2)
     end_time = time.time()
